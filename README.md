@@ -55,6 +55,15 @@ Debug
 -----
 Often the large 3rd party libraries are not subject for debugging and as such their **release** builds are used in main codebase even for **application's** debug profile. To enforce the debug version of whole codebase use ```debug=1``` URL parameter.
 
-TODO
-----
-- CDN recovery fallback
+CDN recovery fallback
+---------------------
+Is done (explanation TBD)
+
+Live test
+---------
+Require on relative path:
+http://amdharness.org/amdharness-app/app/test/testLoader.html
+
+
+
+
